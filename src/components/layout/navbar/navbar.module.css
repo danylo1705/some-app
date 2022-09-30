@@ -1,0 +1,47 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  width: 95%;
+  position: fixed;
+  top: 5px;
+  left: 2.5%;
+  z-index: 1000;
+}
+nav img {
+  cursor: pointer;
+  width: 80px;
+  height: 80px;
+}
+nav ul {
+  display: flex;
+  list-style: none;
+  margin-right: 40%;
+  margin-top: 35px;
+}
+nav ul li {
+  margin-right: 30px;
+  color: white;
+  font-family: "Montserrat";
+  font-size: 14px;
+  font-weight: 400;
+  text-transform: uppercase;
+  cursor: pointer;
+  border: none;
+  border-bottom: 2px solid rgba(226, 219, 26, 0);
+  transition: 0.5s;
+  padding-bottom: 20px;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+nav ul li:hover {
+  padding-bottom: 0px;
+  border-bottom: 2px solid rgb(226, 219, 26);
+}
+nav .burger {
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+  margin-top: 20px;
+  margin-right: 5px;
+}/*# sourceMappingURL=navbar.module.css.map */

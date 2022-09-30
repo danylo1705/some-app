@@ -1,0 +1,169 @@
+.projects {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 100%;
+}
+.projects .text {
+  display: flex;
+  flex-direction: column;
+  margin-left: -30%;
+  width: 23%;
+}
+@media screen and (min-width: 990px) {
+  .projects .text {
+    margin-left: -50%;
+  }
+}
+@media screen and (min-width: 1300px) {
+  .projects .text {
+    margin-left: -30%;
+  }
+}
+.projects .text h2 {
+  font-family: "Montserrat";
+  font-size: 60px;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 70px;
+}
+.projects .text ul {
+  list-style: none;
+  align-self: end;
+  margin-top: 100px;
+}
+.projects .text ul :first-child {
+  color: #e2db1a;
+}
+.projects .text ul li {
+  text-align: end;
+  font-family: "Montserrat";
+  color: black;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 52px;
+  text-transform: uppercase;
+}
+.projects .photos {
+  display: flex;
+  justify-content: end;
+  height: 100%;
+  flex-wrap: wrap;
+  width: 51%;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.projects .photos .item1 {
+  width: 50%;
+  height: 50%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(http://demo.qodearena.com/projects/anticahtml/img/home_first/works1.jpg);
+  transition-duration: 1s;
+}
+.projects .photos .item1:hover .item_anim {
+  display: flex;
+  width: 90%;
+  height: 90%;
+  opacity: 1;
+}
+.projects .photos .item2 {
+  width: 50%;
+  height: 50%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(http://demo.qodearena.com/projects/anticahtml/img/home_first/works2.jpg);
+  transition-duration: 1s;
+}
+.projects .photos .item2:hover .item_anim {
+  display: flex;
+  width: 90%;
+  height: 90%;
+  opacity: 1;
+}
+.projects .photos .item3 {
+  width: 50%;
+  height: 50%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(http://demo.qodearena.com/projects/anticahtml/img/home_first/works3.jpg);
+  transition-duration: 1s;
+}
+.projects .photos .item3:hover .item_anim {
+  display: flex;
+  width: 90%;
+  height: 90%;
+  opacity: 1;
+}
+.projects .photos .item4 {
+  width: 50%;
+  height: 50%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(http://demo.qodearena.com/projects/anticahtml/img/home_first/works4.jpg);
+  transition-duration: 1s;
+}
+.projects .photos .item4:hover .item_anim {
+  display: flex;
+  width: 90%;
+  height: 90%;
+  opacity: 1;
+}
+
+.bg_orks {
+  position: absolute;
+  opacity: 0.07;
+  color: black;
+  font-size: 150px;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-family: "Montserrat";
+  left: 0;
+  top: 34%;
+  z-index: 5;
+}
+
+.bg_rect {
+  width: 300px;
+  height: 160px;
+  border: 10px solid rgba(0, 0, 0, 0.07);
+  position: absolute;
+  left: 28%;
+  top: 22%;
+  z-index: 5;
+}
+
+.item_anim {
+  background: rgba(226, 219, 26, 0.9);
+  width: 20%;
+  height: 20%;
+  display: none;
+  opacity: 0;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.item_anim h2 {
+  font-family: "Montserrat";
+  font-weight: 300;
+  margin-top: 20px;
+}/*# sourceMappingURL=projects.module.css.map */

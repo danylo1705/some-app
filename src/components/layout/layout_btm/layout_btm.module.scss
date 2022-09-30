@@ -1,0 +1,26 @@
+p{
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 14px;
+    color: white;
+}
+span{
+    color: #e2db1a;
+}
+
+.lay{
+    width: 95%;
+    position: fixed;
+    bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    left: 2.5%;
+    z-index: 1000;
+    .lang{
+        margin-right: 5px;
+    }
+    p{
+        cursor: pointer;
+    }
+}

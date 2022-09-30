@@ -1,0 +1,128 @@
+header {
+  height: 100vh;
+  position: relative;
+  width: 100%;
+  border: 1px solid black;
+  z-index: 2;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(http://demo.qodearena.com/projects/anticahtml/img/home_first/start_page_bg.jpg);
+}
+header .container {
+  width: 95%;
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+header .container .header_content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  z-index: 7;
+}
+header .container .header_content .left_link {
+  transform: rotate(270deg);
+  color: white;
+  font-size: 14px;
+  font-weight: 400;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+header .container .header_content .header_text {
+  width: 650px;
+  margin-left: -30%;
+  margin-top: 40px;
+}
+@media screen and (min-width: 990px) {
+  header .container .header_content .header_text {
+    margin-left: 40px;
+  }
+}
+@media screen and (min-width: 1160px) {
+  header .container .header_content .header_text {
+    margin-left: -30%;
+  }
+}
+header .container .header_content .header_text h2 {
+  width: 620px;
+  font-family: "Montserrat";
+  color: white;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 46px;
+}
+header .container .header_content .header_text h2 span {
+  color: #e2db1a;
+}
+header .container .header_content .header_text .line_author {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 30px;
+}
+header .container .header_content .header_text .line_author .header_line {
+  width: 86px;
+  height: 2px;
+  background-color: #e2db1a;
+  margin-top: 15px;
+}
+header .container .header_content .header_text .learn_m {
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+  cursor: pointer;
+}
+header .container .header_content .header_text .learn_m p {
+  text-transform: uppercase;
+  font-size: 10px;
+}
+header .container .header_content .header_text .learn_m img {
+  margin-left: 10px;
+}
+header .container .header_content .right_link {
+  transform: rotate(270deg);
+  color: white;
+  font-size: 14px;
+  font-weight: 400;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.bg {
+  position: absolute;
+  height: 100%;
+  width: 43%;
+  background-color: rgba(52, 46, 54, 0.9);
+  left: 0;
+  top: 0;
+  z-index: 5;
+}
+
+.bg_txt {
+  position: absolute;
+  left: -20px;
+  top: 45%;
+  z-index: 6;
+}
+.bg_txt p {
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #9c969e;
+  font-size: 170px;
+  opacity: 0.07;
+  line-height: 70px;
+}
+
+.bg_rect {
+  top: 40%;
+  left: 28%;
+  position: absolute;
+  width: 490px;
+  height: 240px;
+  border: 10px solid rgba(255, 255, 255, 0.1);
+  z-index: 6;
+}/*# sourceMappingURL=header.module.css.map */
